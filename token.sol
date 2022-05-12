@@ -4,8 +4,8 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 18;
-    string public name = "Chris Titus Crypto";
-    string public symbol = "CTC";
+    string public name = "Mohammed OuedrhiriCrypto";
+    string public symbol = "MOC";
     uint public decimals = 18;
     
     event Transfer(address indexed from, address indexed to, uint value);
